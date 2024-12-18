@@ -1,13 +1,11 @@
-"use strict";
+//import { detectIntent } from './dialogflow1';
 // ChatGPT
 /*
 export const greet = (name: string): string => {
   return `Hello, ${name}!`;
 };
 */
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.greet = greet;
 // Gemini
-function greet(name) {
-    return "Hello, ".concat(name, "!");
+export function greet(name) {
+    return `Hello, ${name}!`;
 }

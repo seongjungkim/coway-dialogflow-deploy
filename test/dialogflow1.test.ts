@@ -1,0 +1,1 @@
+import { detectIntent } from '../src/dialogflow1';

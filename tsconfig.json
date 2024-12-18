@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "node", // Node.js 모듈 해석 방식 사용
         "strict": true,
         "esModuleInterop": true,
         "rootDir": "./src",
